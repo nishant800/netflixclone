@@ -385,30 +385,293 @@ ul:hover i {
 
 
 @media (max-width: 600px) {
+    .main {
+        height: 50vh;
+    }
+
+    .overlay {
+        height: 50vh;
+    }
+
+    .nav {
+        padding: 0 2vw;
+
+    }
+
+    .navleft img {
+        height: 50px;
+        bottom: 50%;
+    }
+
+    .navright .select {
+        padding: 0.5vw 2vw;
+        font-size: 2.5vw;
+        font-weight: 900;
+        border-radius: 3px;
+    }
+
+    .navright button {
+        font-size: 2.5vw;
+        padding: 0.9vw 1.5vw;
+        border-radius: 3px;
+    }
+
+    .innermain {
+        width: 100%;
+        height: calc(50vh - 80px);
+    }
+
+    .innermain h1 {
+        font-size: 8vw;
+        line-height: 11vw;
+        font-weight: bolder;
+        margin-bottom: 2vw;
+    }
+
+    .innermain h2 {
+        font-size: 4vw;
+        line-height: 6vw;
+        font-weight: 400;
+        margin-bottom: 2vw;
+
+    }
+
+    .innermain :nth-child(3) {
+        font-size: 2.5vw;
+        font-weight: 400;
+        margin-bottom: 2vw;
+
+    }
+
+    .btn {
+        font-size: 3vw;
+        padding: 2.3vw 2.5vw;
+        border-radius: 5px;
+        margin-left: 0.5vw;
+    }
+
+    .btn i {
+        font-size: 3vw;
+    }
+
+    .emaili {
+        width: 50vw;
+        height: 8vw;
+        font-size: 3vw;
+        border-radius: 4px;
+    }
+
+
     .page2 {
-        height: 60vh;
-        padding: 2vh 0;
+        height: 70vh;
+        padding: 5vh 0;
         flex-wrap: wrap;
         flex-direction: column;
     }
 
     .tvimg img {
-        position: initial;
-        width: 100%;
-        bottom: 0px;
+        position: relative;
+        width: 95%;
+        margin: 0 2vw;
     }
 
     .texth {
-        font-size: 9vw;
-        line-height: 15vw;
+        font-size: 12vw;
+        line-height: 25vw;
 
     }
 
     .texts {
-        font-size: 3vw;
+        font-size: 3.8vw;
         line-height: 6vw;
         text-align: center;
 
     }
 
+    .video {
+        position: absolute;
+        left: 7%;
+        top: 47%;
+        width: 85vw;
+        height: 41vw;
+        overflow: hidden;
+    }
+
+    .page3 {
+        height: 80vh;
+        padding: 3vh 0;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .p3img img {
+        height: 30vh;
+        margin-bottom: 20vw;
+    }
+
+    .p3text .texth {
+        line-height: 13vw;
+        text-align: center;
+    }
+
+    .p3text .texts {
+        font-size: 5vw;
+        padding: 2vw;
+    }
+
+    .stbox {
+        width: 48%;
+        height: 8%;
+        bottom: 20%;
+        left: 26%;
+    }
+
+    .txt h3 {
+        font-size: 3vw;
+        font-weight: 600;
+        line-height: 4vw;
+    }
+
+    .txt h4 {
+        font-size: 2.5vw;
+        color: rgb(109, 109, 109);
+    }
+
+    .stbox .png {
+        height: 8vw;
+    }
+
+    .page4 {
+        height: 70vh;
+        padding: 3vh 1vw;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .p4img img {
+        height: 35vh;
+    }
+
+    .p4overvideo {
+        left: 20%;
+        top: 24.5%;
+        width: 60vw;
+        height: 37vh;
+    }
+
+    .p4txt .texth {
+        font-size: 11.5vw;
+        text-align: center;
+    }
+
+    .p4txt .texts {
+        font-size: 5vw;
+        margin-bottom: 6vw;
+        line-height: 7vw;
+    }
+
+    .page5 {
+        height: 70vh;
+        padding: 5vh 0;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .p5img {
+        height: 35vh;
+        margin-top: 6vw;
+    }
+
+    .p5img img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .p5txt .texth {
+        font-size: 11vw;
+        line-height: 13vw;
+        text-align: center;
+    }
+
+    .p5txt .texts {
+        font-size: 5vw;
+        margin: 0 1vw;
+    }
+
+    .page6 {
+        padding: 4vw 3vw;
+        flex-wrap: wrap;
+    }
+
+    .questions {
+        height: 8vw;
+        margin-bottom: 1.5vw;
+        padding: 0 3vw;
+    }
+
+    .txtq {
+        font-size: 2.8vw;
+    }
+
+    .page6 h3 {
+        font-size: 2.5vw;
+    }
+
+    .page6>h1 {
+        font-size: 6vw;
+        margin-bottom: 3vw;
+    }
+
+    .member {
+        width: 65%;
+        margin-top: 3vw;
+
+    }
+
+    .emailbottom {
+        width: 40vw;
+        height: 5vw;
+        font-size: 2vw;
+        border-radius: 3px;
+    }
+
+    .btnbottom {
+        font-size: 2.7vw;
+        padding: 1vw 2vw;
+    }
+
+    .btnbottom i {
+        font-size: 2vw;
+    }
+
+    .page7 {
+        height: 25vh;
+        padding: 4vw 3vw;
+        flex-wrap: wrap;
+    }
+
+    .page7 h1 {
+        font-size: 2vw;
+    }
+
+    .page7 .page7 a {
+        font-size: 2vw;
+    }
+
+    .page7 ul li a {
+        font-size: 2vw;
+    }
+
+    .page7 ul li {
+        line-height: 4vw;
+    }
+
+    .page7 .select {
+        padding: 0.5vw 1.5vw;
+        font-size: 2vw;
+        font-weight: 900;
+        border-radius: 3px;
+        color: gray;
+    }
 }
